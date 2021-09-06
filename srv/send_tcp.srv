@@ -1,7 +1,7 @@
 # Sends a data packet over an open TCP socket.
 
-uint8[] data        # The data bytes to transmit
+tcp_packet  packet      # The TCP packet to send.
 
 ---
 
-bool    success     # Indicates if the transmission was successful
+bool        success     # Indicates if the transmission was successful

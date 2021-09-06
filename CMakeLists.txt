@@ -10,6 +10,7 @@ add_message_files(
   FILES
   endpoint.msg
   status.msg
+  tcp_packet.msg
   tcp_server.msg
   tcp_socket.msg
   udp_packet.msg
