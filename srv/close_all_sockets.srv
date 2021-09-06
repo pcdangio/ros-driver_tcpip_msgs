@@ -1,0 +1,4 @@
+# Instructs the modem to close all open sockets.
+
+---
+bool success        # Indicates if all open sockets were closed successfully.

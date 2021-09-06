@@ -1,0 +1,9 @@
+# Starts a TCP server on the modem to listen for incoming client connections.
+
+string  local_ip        # The IP address of the local endpoint for the server to listen on.
+uint16  local_port      # The port of the local endpoint for the server to listen on.
+
+---
+
+bool    success         # Indicates if the server was started.
+uint32  server_id       # If successful, provides the ID of the started server.
