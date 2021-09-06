@@ -1,12 +1,9 @@
 # Opens a new TCP client socket on the modem.
 
-string  local_ip        # The IP address of the local client endpoint.
-uint16  local_port      # The port of the local client endpoint.
-
-string  remote_ip       # The IP address of the remote server endpoint.
-uint16  remote_port     # The port of the remote server endpoint.
+endpoint    local_endpoint      # The local client endpoint of the connection.
+endpoint    remote_endpoint     # The remote server endpoint of the connection.
 
 ---
 
-bool    success         # Indicates if the socket was added.
-uint32  server_id       # If successful, provides the ID of the opened socket.
+bool        success         # Indicates if the socket was added.
+uint32      server_id       # If successful, provides the ID of the opened socket.
