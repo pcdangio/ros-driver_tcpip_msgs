@@ -8,19 +8,22 @@ find_package(catkin REQUIRED COMPONENTS
 # Add messages.
 add_message_files(
   FILES
-  data_packet.msg
-  active_connections.msg)
+  endpoint.msg
+  status.msg
+  tcp_server.msg
+  tcp_socket.msg
+  udp_packet.msg
+  udp_socket.msg)
 
 # Add services.
 add_service_files(
   FILES
-  set_remote_host.srv
-  get_remote_host.srv
-  add_tcp_connection.srv
-  add_udp_connection.srv
-  remove_connection.srv
-  remove_all_connections.srv
-  send_tcp.srv)
+  close_socket.srv
+  open_tcp_socket.srv
+  open_udp_socket.srv
+  send_tcp.srv
+  start_tcp_server.srv
+  stop_tcp_server.srv)
 
 # Generate messages and services.
 generate_messages()
