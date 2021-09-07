@@ -6,4 +6,4 @@ endpoint    remote_endpoint     # The remote server endpoint of the connection.
 ---
 
 bool        success         # Indicates if the socket was added.
-uint32      server_id       # If successful, provides the ID of the opened socket.
+uint32      socket_id       # If successful, provides the ID of the opened socket.

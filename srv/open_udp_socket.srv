@@ -5,4 +5,4 @@ endpoint    local_endpoint      # The local endpoint to open the socket on.
 ---
 
 bool        success         # Indicates if the socket was added.
-uint32      server_id       # If successful, provides the ID of the opened socket.
+uint32      socket_id       # If successful, provides the ID of the opened socket.
