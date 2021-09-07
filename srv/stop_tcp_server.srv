@@ -3,5 +3,3 @@
 uint32  server_id       # The ID of the TCP server to stop.
 
 ---
-
-bool    success         # Indicates if the server was stopped.

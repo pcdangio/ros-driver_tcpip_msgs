@@ -4,5 +4,4 @@ endpoint    local_endpoint      # The local endpoint to start the server on.
 
 ---
 
-bool    success         # Indicates if the server was started.
 uint32  server_id       # If successful, provides the ID of the started server.

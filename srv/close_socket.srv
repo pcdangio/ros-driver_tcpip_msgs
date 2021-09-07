@@ -3,5 +3,3 @@
 uint32  socket_id       # The ID of the socket to close.
 
 ---
-
-bool    success         # Indicates if the socket was successfully closed.
