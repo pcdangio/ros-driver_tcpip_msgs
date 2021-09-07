@@ -22,6 +22,7 @@ add_service_files(
   close_socket.srv
   open_tcp_socket.srv
   open_udp_socket.srv
+  resolve_ip.srv
   send_tcp.srv
   start_tcp_server.srv
   stop_tcp_server.srv)
