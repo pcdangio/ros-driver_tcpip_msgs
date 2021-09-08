@@ -1,8 +1,0 @@
-# Opens a new TCP client socket on the modem.
-
-endpoint    local_endpoint      # The local client endpoint of the connection.
-endpoint    remote_endpoint     # The remote server endpoint of the connection.
-
----
-
-uint32      socket_id       # If successful, provides the ID of the opened socket.
