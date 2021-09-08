@@ -1,4 +1,4 @@
-# Starts a TCP server on the modem to listen for incoming client connections.
+# Starts a TCP server on the driver to listen for incoming client connections.
 
 endpoint    local_endpoint      # The local endpoint to start the server on.
 

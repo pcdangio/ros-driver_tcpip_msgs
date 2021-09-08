@@ -1,4 +1,4 @@
-# Opens a new UDP socket on the modem.
+# Opens a new UDP socket on the driver.
 
 endpoint    local_endpoint      # The local endpoint to open the socket on.
 

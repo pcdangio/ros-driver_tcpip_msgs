@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(driver_modem_msgs)
+project(driver_tcpip_msgs)
 
 # Find catkin macros and libraries
 find_package(catkin REQUIRED COMPONENTS
