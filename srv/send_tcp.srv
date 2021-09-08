@@ -1,5 +1,5 @@
-# A service for transmitting data over a TCP network
+# Sends a data packet over an open TCP socket.
 
-data_packet packet      # The data packet to transmit
+tcp_packet  packet      # The TCP packet to send.
+
 ---
-bool        success     # Indicates if the transmission was successful

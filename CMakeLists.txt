@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(driver_modem_msgs)
+project(driver_tcpip_msgs)
 
 # Find catkin macros and libraries
 find_package(catkin REQUIRED COMPONENTS
@@ -8,19 +8,26 @@ find_package(catkin REQUIRED COMPONENTS
 # Add messages.
 add_message_files(
   FILES
-  data_packet.msg
-  active_connections.msg)
+  endpoint.msg
+  status.msg
+  tcp_client.msg
+  tcp_packet.msg
+  tcp_server.msg
+  tcp_socket.msg
+  udp_packet.msg
+  udp_socket.msg)
 
 # Add services.
 add_service_files(
   FILES
-  set_remote_host.srv
-  get_remote_host.srv
-  add_tcp_connection.srv
-  add_udp_connection.srv
-  remove_connection.srv
-  remove_all_connections.srv
-  send_tcp.srv)
+  close_socket.srv
+  open_udp_socket.srv
+  resolve_ip.srv
+  send_tcp.srv
+  start_tcp_client.srv
+  start_tcp_server.srv
+  stop_tcp_client.srv
+  stop_tcp_server.srv)
 
 # Generate messages and services.
 generate_messages()

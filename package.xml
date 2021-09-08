@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package format="2">
 
-  <name>driver_modem_msgs</name>
+  <name>driver_tcpip_msgs</name>
   <version>1.0.0</version>
-  <description>ROS messages for the driver_modem package.</description>
+  <description>ROS messages for the driver_tcpip package.</description>
   <license>MIT</license>
 
   <author email="pcdangio@gmail.com">Paul D'Angio</author>
