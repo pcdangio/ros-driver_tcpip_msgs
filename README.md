@@ -2,7 +2,7 @@
 
 ## Overview
 
-This package contains ROS messages for the driver_tcpip package.
+This package contains ROS messages for the [driver_tcpip](https://github.com/pcdangio/ros-driver_tcpip) package.
 
 ### License
 
@@ -12,4 +12,4 @@ The source code is released under a [MIT license](LICENSE).
 
 ## Bugs & Feature Requests
 
-Please report bugs and request features using the [Issue Tracker](https://github.com/pcdangio/ros-driver_tcpip/issues).
+Please report bugs and request features using the [Issue Tracker](https://github.com/pcdangio/ros-driver_tcpip_msgs/issues).
